@@ -52,11 +52,14 @@ I am going to build the classification model to predict the survival change of p
 1. Dataset registered in workspace
 ![image](https://github.com/user-attachments/assets/ca1b89fe-4e63-42b4-b088-1854e420b8d4)
 
-2. register the best model
+
+2. Register the best model
 ![image](https://github.com/user-attachments/assets/f41f17f9-8aa2-46a6-af47-f40bca5af826)
+
 
 3. RunDetails
 ![image](https://github.com/user-attachments/assets/464e9c87-9530-4381-abac-a751dd2e6c74)
+
 
 4. Best model
 ![image](https://github.com/user-attachments/assets/070daa46-6458-4d63-9ba6-46b22a8aeaf0)
