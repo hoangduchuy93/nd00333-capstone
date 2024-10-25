@@ -20,14 +20,14 @@ In this problem, we are asked to build a classification model that answers the q
 |--------|------------|----|
 |survival|	Survival|	0 = No, 1 = Yes|
 |pclass|	Ticket class|	1 = 1st, 2 = 2nd, 3 = 3rd|
-sex	Sex	
-Age	Age in years	
-sibsp	# of siblings / spouses aboard the Titanic	
-parch	# of parents / children aboard the Titanic	
-ticket	Ticket number	
-fare	Passenger fare	
-cabin	Cabin number	
-embarked	Port of Embarkation	C = Cherbourg, Q = Queenstown, S = Southampton
+|sex|	Sex| Male, Female|	
+|Age|	Age| in years| 20, 25, 40, ...|	
+|sibsp|	number of siblings / spouses aboard the Titanic| 0, 1, 2, ...|	
+|parch|	number of parents / children aboard the Titanic	| 0, 1, 2, ...|
+|ticket|	Ticket number|A/5 21171, ...|
+|fare|	Passenger fare| 7.25|	
+|cabin|	Cabin number| C85, F42, ...|	
+|embarked|	Port of Embarkation|	C = Cherbourg, Q = Queenstown, S = Southampton|
 
 ### Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
