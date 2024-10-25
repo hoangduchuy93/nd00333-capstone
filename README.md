@@ -54,17 +54,17 @@ I am going to build the classification model to predict the survival change of p
 ![image](https://github.com/user-attachments/assets/ca1b89fe-4e63-42b4-b088-1854e420b8d4)
 
 
-3. Register the best model
+2. Register the best model
 
 ![image](https://github.com/user-attachments/assets/f41f17f9-8aa2-46a6-af47-f40bca5af826)
 
 
-4. RunDetails
+3. RunDetails
 
 ![image](https://github.com/user-attachments/assets/464e9c87-9530-4381-abac-a751dd2e6c74)
 
 
-5. Best model
+4. Best model
 
 ![image](https://github.com/user-attachments/assets/070daa46-6458-4d63-9ba6-46b22a8aeaf0)
 
@@ -73,13 +73,25 @@ I am going to build the classification model to predict the survival change of p
 
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
-
+I apply the logistics regression with 2 parameters:
+- C: the regularization strenght. Input the random floating-point from 0.05 to 0.1.
+- Max iteration: Select the random iteration of 16, 32, 64, 128 times.
 
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
+The best run get the accuracy around 73% with the C value of 0.07 and the max inter of 64
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+![image](https://github.com/user-attachments/assets/a627c413-7b6f-4478-9298-6f8e073406c5)
+
+
+RunDetails
+
+![image](https://github.com/user-attachments/assets/fbe62ea8-cbc6-416c-ae84-5abbee67fa34)
+
+Best run
+
+![image](https://github.com/user-attachments/assets/78648762-0072-4144-8678-83373f86d0fb)
+
+
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
