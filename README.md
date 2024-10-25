@@ -1,8 +1,14 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+# Capstone Project - Azure Machine Learning Engineer
 
-# Your Project Title Here
-
-*TODO:* Write a short introduction to your project.
+This project is the classification problem using both hyperparameters HyperDrive and AutoML to get the best model and deploy the model. I will be using both hyperdrive and automl API from Azure to build this project. The datasetis about Titanic passenger survival possibility,where I get the data from Kaggle. The project involves the following step:
+1. Choose a dataset (here is Titanic passenger survival possibility)
+2. Import dataset into workspace
+3. Train model using:
+    - Automated ML
+    - HyperDrive
+4. Compare model the performance
+5. Deploy the best model
+6. Test model End point
 
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
