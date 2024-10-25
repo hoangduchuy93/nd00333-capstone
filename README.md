@@ -38,12 +38,32 @@ I am going to build the classification model to predict the survival change of p
 - Read the dataset using Dataset.Tabular.from_delimited_files
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+1. Setting the automl
+- Experiment timeout minutes: 20 minnutes timeout
+- Max concurrent iterations: 5 times
+- Primary metric: AUC weighted
+
+2. Automl config:
+- Task: classification task
+- Label column: Survived
+- Featurization: auto feature engineer
+- Debug log: automl_errors.log
 
 ### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+1. Dataset registered in workspace
+![image](https://github.com/user-attachments/assets/ca1b89fe-4e63-42b4-b088-1854e420b8d4)
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+2. register the best model
+![image](https://github.com/user-attachments/assets/f41f17f9-8aa2-46a6-af47-f40bca5af826)
+
+3. RunDetails
+![image](https://github.com/user-attachments/assets/464e9c87-9530-4381-abac-a751dd2e6c74)
+
+4. Best model
+![image](https://github.com/user-attachments/assets/070daa46-6458-4d63-9ba6-46b22a8aeaf0)
+
+5. Estimator
+![image](https://github.com/user-attachments/assets/207dbbf6-96ac-4bc3-bd45-e88bde3dbf26)
 
 ## Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
