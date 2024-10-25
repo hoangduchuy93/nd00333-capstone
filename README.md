@@ -32,7 +32,6 @@ In this problem, we are asked to build a classification model that answers the q
 I am going to build the classification model to predict the survival change of passenger based on above descrised characteristics.
 
 ### Access
-*TODO*: Explain how you are accessing the data in your workspace.
 - The dataset is first downloaded from Kaggle (link: https://www.kaggle.com/c/titanic/data)
 - Next, dataset is uploaded to my github and then copy the link of raw data
 - Read the dataset using Dataset.Tabular.from_delimited_files
@@ -62,8 +61,12 @@ I am going to build the classification model to predict the survival change of p
 4. Best model
 ![image](https://github.com/user-attachments/assets/070daa46-6458-4d63-9ba6-46b22a8aeaf0)
 
+
+
 5. Estimator
 ![image](https://github.com/user-attachments/assets/207dbbf6-96ac-4bc3-bd45-e88bde3dbf26)
+
+
 
 ## Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
