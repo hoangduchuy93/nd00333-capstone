@@ -15,7 +15,6 @@ The dataset is downloaded from Kaggle with link: https://www.kaggle.com/c/titani
 In this problem, we are asked to build a classification model that answers the question: "what sorts of people were more likely to survive?" using passenger data (ie name, age, gender, socio-economic class, etc).
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
 |Variable|	Definition|	Key|
 |--------|------------|----|
 |survival|	Survival|	0 = No, 1 = Yes|
@@ -30,10 +29,13 @@ In this problem, we are asked to build a classification model that answers the q
 |embarked|	Port of Embarkation|	C = Cherbourg, Q = Queenstown, S = Southampton|
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+I am going to build the classification model to predict the survival change of passenger based on above descrised characteristics.
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
+- The dataset is first downloaded from Kaggle (link: https://www.kaggle.com/c/titanic/data)
+- Next, dataset is uploaded to my github and then copy the link of raw data
+- Read the dataset using Dataset.Tabular.from_delimited_files
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
