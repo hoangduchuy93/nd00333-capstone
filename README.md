@@ -55,8 +55,8 @@ I am going to build the classification model to predict the survival change of p
 
 
 2. Register the best model
-3. 
-The best model us Voting Ensemble
+
+The best model is Voting Ensemble
 
 ![image](https://github.com/user-attachments/assets/f41f17f9-8aa2-46a6-af47-f40bca5af826)
 
