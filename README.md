@@ -18,8 +18,8 @@ In this problem, we are asked to build a classification model that answers the q
 *TODO*: Explain about the data you are using and where you got it from.
 |Variable|	Definition|	Key|
 |--------|------------|----|
-survival	Survival	0 = No, 1 = Yes
-pclass	Ticket class	1 = 1st, 2 = 2nd, 3 = 3rd
+|survival|	Survival|	0 = No, 1 = Yes|
+|pclass|	Ticket class|	1 = 1st, 2 = 2nd, 3 = 3rd|
 sex	Sex	
 Age	Age in years	
 sibsp	# of siblings / spouses aboard the Titanic	
