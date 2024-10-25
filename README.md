@@ -55,8 +55,14 @@ I am going to build the classification model to predict the survival change of p
 
 
 2. Register the best model
+3. 
+The best model us Voting Ensemble
 
 ![image](https://github.com/user-attachments/assets/f41f17f9-8aa2-46a6-af47-f40bca5af826)
+
+The best accuracy is 82%
+
+![image](https://github.com/user-attachments/assets/840a135b-9e2b-4641-b0d7-0a0d207b10b1)
 
 
 3. RunDetails
