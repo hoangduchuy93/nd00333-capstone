@@ -56,13 +56,10 @@ I am going to build the classification model to predict the survival change of p
 
 2. Register the best model
 
-The best model is Voting Ensemble
+The best model is Voting Ensemble. The best accuracy is 83%
 
-![image](https://github.com/user-attachments/assets/f41f17f9-8aa2-46a6-af47-f40bca5af826)
+![image](https://github.com/user-attachments/assets/3bc281bb-6c52-48c0-97be-57a7b886b390)
 
-The best accuracy is 82%
-
-![image](https://github.com/user-attachments/assets/840a135b-9e2b-4641-b0d7-0a0d207b10b1)
 
 
 3. RunDetails
