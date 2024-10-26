@@ -18,7 +18,7 @@ from inference_schema.parameter_types.numpy_parameter_type import NumpyParameter
 from inference_schema.parameter_types.pandas_parameter_type import PandasParameterType
 
 
-input_sample = pd.DataFrame({"fixed acidity": pd.Series([0.0], dtype="float64"), "volatile acidity": pd.Series([0.0], dtype="float64"), "citric acid": pd.Series([0.0], dtype="float64"), "residual sugar": pd.Series([0.0], dtype="float64"), "chlorides": pd.Series([0.0], dtype="float64"), "free sulfur dioxide": pd.Series([0.0], dtype="float64"), "total sulfur dioxide": pd.Series([0.0], dtype="float64"), "density": pd.Series([0.0], dtype="float64"), "pH": pd.Series([0.0], dtype="float64"), "sulphates": pd.Series([0.0], dtype="float64"), "alcohol": pd.Series([0.0], dtype="float64")})
+input_sample = pd.DataFrame({"PassengerId": pd.Series([0], dtype="int64"), "Pclass": pd.Series(["example_value"], dtype="object"), "Sex": pd.Series(["example_value"], dtype="object"), "Age": pd.Series([0.0], dtype="float64"), "SibSp": pd.Series([0], dtype="int64"), "Parch": pd.Series([0], dtype="int64"), "Ticket": pd.Series(["example_value"], dtype="object"), "Fare": pd.Series([0.0], dtype="float64"), "Cabin": pd.Series(["example_value"], dtype="object"), "Embarked": pd.Series(["example_value"], dtype="object")})
 output_sample = np.array([0])
 try:
     log_server.enable_telemetry(INSTRUMENTATION_KEY)
