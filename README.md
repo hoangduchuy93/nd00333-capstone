@@ -17,16 +17,16 @@ In this problem, we are asked to build a classification model that answers the q
 ### Overview
 |Variable|	Definition|	Key|
 |--------|------------|----|
-|survival|	Survival|	0 = No, 1 = Yes|
-|pclass|	Ticket class|	1 = 1st, 2 = 2nd, 3 = 3rd|
-|sex|	Sex| Male, Female|	
+|Survived|	Survival|	True/False|
+|Pclass|	Ticket class|	1 = 1st, 2 = 2nd, 3 = 3rd|
+|Sex|	Sex| Male, Female|	
 |Age|	Age| in years| 20, 25, 40, ...|	
-|sibsp|	number of siblings / spouses aboard the Titanic| 0, 1, 2, ...|	
-|parch|	number of parents / children aboard the Titanic	| 0, 1, 2, ...|
-|ticket|	Ticket number|A/5 21171, ...|
-|fare|	Passenger fare| 7.25|	
-|cabin|	Cabin number| C85, F42, ...|	
-|embarked|	Port of Embarkation|	C = Cherbourg, Q = Queenstown, S = Southampton|
+|SibSp|	number of siblings / spouses aboard the Titanic| 0, 1, 2, ...|	
+|Parch|	number of parents / children aboard the Titanic	| 0, 1, 2, ...|
+|Ticket|	Ticket number|A/5 21171, ...|
+|Fare|	Passenger fare| 7.25|	
+|Cabin|	Cabin number| C85, F42, ...|	
+|Embarked|	Port of Embarkation|	C = Cherbourg, Q = Queenstown, S = Southampton|
 
 ### Task
 I am going to build the classification model to predict the survival change of passenger based on above descrised characteristics.
@@ -69,7 +69,8 @@ The best model is Voting Ensemble. The best accuracy is 83%
 
 4. Best model
 
-![image](https://github.com/user-attachments/assets/070daa46-6458-4d63-9ba6-46b22a8aeaf0)
+![image](https://github.com/user-attachments/assets/37cbd702-eb4c-4863-8c37-23bb8c85d895)
+
 
 
 
