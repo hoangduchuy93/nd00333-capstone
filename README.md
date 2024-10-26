@@ -100,7 +100,8 @@ Best run
 ## Model Deployment
 1. The deployement is sucessfully
 
-![image](https://github.com/user-attachments/assets/3b53bba1-e70f-4ca0-84c7-fc954c65c4a5)
+![image](https://github.com/user-attachments/assets/1b3164c3-82c0-42e2-801b-44e105b20da1)
+
 
 2. REST Endpoint and Application insights enable
 
