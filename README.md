@@ -38,9 +38,9 @@ I am going to build the classification model to predict the survival change of p
 
 ## Automated ML
 1. Setting the automl
-- Experiment timeout minutes: 20 minnutes timeout
+- Experiment timeout minutes: 30 minnutes timeout
 - Max concurrent iterations: 5 times
-- Primary metric: AUC weighted
+- Primary metric: accuracy
 
 2. Automl config:
 - Task: classification task
@@ -56,7 +56,7 @@ I am going to build the classification model to predict the survival change of p
 
 2. Register the best model
 
-The best model is Voting Ensemble. The best accuracy is 83%
+The best model is Voting Ensemble. The best accuracy is 83.7%
 
 ![image](https://github.com/user-attachments/assets/3bc281bb-6c52-48c0-97be-57a7b886b390)
 
