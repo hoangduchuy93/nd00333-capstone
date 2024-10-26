@@ -98,7 +98,25 @@ Best run
 
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+1. The deployement is sucessfully
+
+![image](https://github.com/user-attachments/assets/3b53bba1-e70f-4ca0-84c7-fc954c65c4a5)
+
+2. REST Endpoint and Application insights enable
+
+![image](https://github.com/user-attachments/assets/0818315b-0d71-41d4-a34c-b3e628954d22)
+
+
+3. Sample data for testing
+The data sending to endpoint is looking like this:
+{'data':
+[{'PassengerId': 1, 'Pclass': 3, 'Name': 'Braund, Mr. Owen Harris', 'Sex': 'male', 'Age': 22.0, 'SibSp': 1, 'Parch': 0, 'Ticket': 'A/5 21171', 'Fare': 7.25, 'Cabin': None, 'Embarked': 'S'},
+{'PassengerId': 2, 'Pclass': 1, 'Name': 'Cumings, Mrs. John Bradley (Florence Briggs Thayer)', 'Sex': 'female', 'Age': 38.0, 'SibSp': 1, 'Parch': 0, 'Ticket': 'PC 17599', 'Fare': 71.2833, 'Cabin': 'C85', 'Embarked': 'C'}]}
+
+The prediction and expected result are:
+
+![image](https://github.com/user-attachments/assets/da668d42-a4d3-4c45-8206-f772d775c673)
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
