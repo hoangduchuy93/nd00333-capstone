@@ -92,6 +92,7 @@ Some models accuracy of automl
 
 3. RunDetails
 
+<img width="519" alt="image" src="https://github.com/user-attachments/assets/af39543c-966d-485a-87d3-ccaf03b4e906">
 
 
 Check the best run
@@ -126,7 +127,7 @@ RunDetails
 
 <img width="584" alt="image" src="https://github.com/user-attachments/assets/5e2a4bf4-6d6a-4daf-9ce7-1a9556c5e957">
 
-Check the best run
+The best run and the accuracy of hyperparameter
 
 ![image](https://github.com/user-attachments/assets/0ead1bc1-c013-4e54-bcac-2217fead9b3e)
 
