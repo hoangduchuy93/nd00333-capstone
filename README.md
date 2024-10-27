@@ -92,9 +92,10 @@ Some models accuracy of automl
 
 3. RunDetails
 
-![image](https://github.com/user-attachments/assets/464e9c87-9530-4381-abac-a751dd2e6c74)
+<img width="584" alt="image" src="https://github.com/user-attachments/assets/2f0dce14-f625-4927-b303-ce92b4efabfd">
 
-The run is completed
+
+Check the best run
 
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/a58fde51-c768-4d21-8ad2-6d24d0657be8">
 
