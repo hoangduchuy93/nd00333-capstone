@@ -103,7 +103,10 @@ The run is completed
 
 ![image](https://github.com/user-attachments/assets/37cbd702-eb4c-4863-8c37-23bb8c85d895)
 
-
+***Improvement plan for automl***
+- Can change the max iter higher such as 10 to see the improvement.
+- Can enable early stopping to get the best model when accuracy begin to go down
+- Can change to AUC_weighted as primary metrics to see if the accuracy of model can increase.
 
 
 
