@@ -82,7 +82,11 @@ The best model is Voting Ensemble. The best accuracy is 84%
 
 ![image](https://github.com/user-attachments/assets/ea648095-b39c-4a1e-a7b1-312d252b82d5)
 
+Some models accuracy of automl
 
+![image](https://github.com/user-attachments/assets/e085a721-6c7b-4f53-bf58-710c31994b4b)
+
+![image](https://github.com/user-attachments/assets/42b3ee11-7d7a-4e48-ad6c-1b548ad72c54)
 
 
 
