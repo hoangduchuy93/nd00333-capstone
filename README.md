@@ -96,7 +96,9 @@ Some models accuracy of automl
 
 The run is completed
 
-![image](https://github.com/user-attachments/assets/e9e76d37-6402-4652-8e22-be942c2343c8)
+<img width="553" alt="image" src="https://github.com/user-attachments/assets/a58fde51-c768-4d21-8ad2-6d24d0657be8">
+
+
 
 
 4. Best model
