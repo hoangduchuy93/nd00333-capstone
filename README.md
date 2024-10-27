@@ -133,21 +133,33 @@ Best run
 
 
 ## Model Deployment
-1. The deployement is sucessfully with status healthy
+1. Choose the best model to deploy
+The automl accuracy is 84%
+
+![image](https://github.com/user-attachments/assets/80142876-e2bb-4e53-b2e3-5685be0011da)
+
+The hyperparam accuracy is 73%
+
+![image](https://github.com/user-attachments/assets/bce6d9db-8c3c-4da6-b433-8373e0addc9c)
+
+
+==> We can choose the best model from automl to deploy to get the best performance.
+
+2. The deployement is sucessfully with status healthy
 
 ![image](https://github.com/user-attachments/assets/8951bf41-70ff-43c7-9555-fd033cdea6cc)
 
 
 
 
-2. REST Endpoint and Application insights enable
+3. REST Endpoint and Application insights enable
 
 ![image](https://github.com/user-attachments/assets/f4008cff-e2d1-4d0e-af0a-c5855124c485)
 
 
 
 
-3. Sample data for testing
+4. Sample data for testing
 I randomly send 2 Passenger information to endpoint. The data sending to endpoint is looking like this:
 `{'data':
 [{'PassengerId': 1, 'Pclass': 3, 'Name': 'Braund, Mr. Owen Harris', 'Sex': 'male', 'Age': 22.0, 'SibSp': 1, 'Parch': 0, 'Ticket': 'A/5 21171', 'Fare': 7.25, 'Cabin': None, 'Embarked': 'S'},
