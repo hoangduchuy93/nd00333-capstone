@@ -128,11 +128,8 @@ RunDetails
 
 The run is finished
 
-![image](https://github.com/user-attachments/assets/5ef77094-a9cc-461c-b8ca-ce144b282cdf)
+![image](https://github.com/user-attachments/assets/0ead1bc1-c013-4e54-bcac-2217fead9b3e)
 
-Best run
-
-![image](https://github.com/user-attachments/assets/6f0f3025-1c03-4226-aaf2-4ec05a0db3ea)
 
 
 ## Model Deployment
