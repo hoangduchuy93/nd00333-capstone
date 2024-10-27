@@ -105,7 +105,6 @@ The run is completed
 
 ***Improvement plan for automl***
 - Can change the max iter higher such as 10 to see the improvement.
-- Can enable early stopping to get the best model when accuracy begin to go down
 - Can change to AUC_weighted as primary metrics to see if the accuracy of model can increase.
 
 
@@ -140,7 +139,6 @@ Best run
 ***Improvement plan for hyperparameter***
 - Try different set of hyperparameter setting C and max_iter. For the C can try uniform range between (1 and 5) to see any improvement inperformace. The max_iter can be set to 100 or 200 to evaluate the performance can increase or not.
 - Try different model like tree based model and boosting model like XGBoost, CatBoost, LightGBM. In many cases the boosting model can provide the better accuracy
-- Try to use Early stopping to get the best model accuracy if the accuracy is started to decrease.
 
 ## Model Deployment
 1. Choose the best model to deploy
