@@ -103,10 +103,6 @@ The run is completed
 
 ![image](https://github.com/user-attachments/assets/37cbd702-eb4c-4863-8c37-23bb8c85d895)
 
-***Improvement plan for automl***
-- Can change the max iter higher such as 10 to see the improvement.
-- Can change to AUC_weighted as primary metrics to see if the accuracy of model can increase.
-
 
 
 ## Hyperparameter Tuning
@@ -136,9 +132,6 @@ Best run
 
 ![image](https://github.com/user-attachments/assets/6f0f3025-1c03-4226-aaf2-4ec05a0db3ea)
 
-***Improvement plan for hyperparameter***
-- Try different set of hyperparameter setting C and max_iter. For the C can try uniform range between (1 and 5) to see any improvement inperformace. The max_iter can be set to 100 or 200 to evaluate the performance can increase or not.
-- Try different model like tree based model and boosting model like XGBoost, CatBoost, LightGBM. In many cases the boosting model can provide the better accuracy
 
 ## Model Deployment
 1. Choose the best model to deploy
@@ -180,8 +173,17 @@ Get 2 passenger information and post request to endpoint
 
 ![image](https://github.com/user-attachments/assets/1e55564b-ec5e-43f6-ad6b-6f29d4ba034d)
 
+## Future Improvement Suggestions
+1. Hyperparameter tunning
+- Try different set of hyperparameter setting C and max_iter. For the C can try uniform range between (1 and 5) to see any improvement inperformace. The max_iter can be set to 100 or 200 to evaluate the performance can increase or not.
+- Can use technique like SMOTE to over sampling to get the equal ratio between survival and not survival passengers.
+- Try different model like tree based model and boosting model like XGBoost, CatBoost, LightGBM. In many cases the boosting model can provide the better accuracy
+
+2. Automl
+- Can change the max iter higher such as 10 to see the improvement.
+- Can change to AUC_weighted as primary metrics to see if the accuracy of model can increase.
 
 
 ## Screen Recording
-Here is the link to the video demo: https://www.youtube.com/watch?v=_pD04FNIrYQ&t=77s
+Here is the link to the video demo: https://www.youtube.com/watch?v=_utXuZJ5_u0
 
