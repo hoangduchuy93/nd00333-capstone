@@ -113,7 +113,7 @@ Best run
 
 
 ## Model Deployment
-1. The deployement is sucessfully
+1. The deployement is sucessfully with status healthy
 
 ![image](https://github.com/user-attachments/assets/8951bf41-70ff-43c7-9555-fd033cdea6cc)
 
