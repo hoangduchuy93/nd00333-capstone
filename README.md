@@ -41,11 +41,11 @@ I am going to build the classification model to predict the survival change of p
 - Register the best model
 - Compare the accuracy of automl and hyperparameter
 
-  3. Deploy the best model
-  - After getting the accuracy between automl and hyper parameter, choose the model with the better accuracy to deploy
-  - From the best run, download the enrironment and the score.py script, ready to feed to Inference config.
-  - Check the status of endpoint deployment is healthy
-  - Send the post request to endpoint to get the response. Compare the prediction with the ground truth values.
+3. Deploy the best model
+- After getting the accuracy between automl and hyper parameter, choose the model with the better accuracy to deploy
+- From the best run, download the enrironment and the score.py script, ready to feed to Inference config.
+- Check the status of endpoint deployment is healthy
+- Send the post request to endpoint to get the response. Compare the prediction with the ground truth values.
 
 ### Access
 - The dataset is first downloaded from Kaggle (link: https://www.kaggle.com/c/titanic/data)
