@@ -29,19 +29,23 @@ In this problem, we are asked to build a classification model that answers the q
 |Embarked|	Port of Embarkation|	C = Cherbourg, Q = Queenstown, S = Southampton|
 
 ### Task
-I am going to build the classification model to predict the survival change of passenger based on above descrised characteristics.
-1. Hyperparameter:
+1. Dataset description:
+- The titanic survival dataset consists of 12 features (including 1 target variable) and 891 records.
+- The number of survival passengers and not survival passengers in the dataset is 342 and 549. So the survival rate around 38% in the dataset
+- I am going to build the classification model to predict the survival change of passenger based on above descrised characteristics.
+
+2. Hyperparameter:
 - Download the dataset from Kaggle and create the dataset to workspace
 - Choose the hyper params (C and max_iters) and submit the run, get the best run accuracy
 - Register the best model
 
-2. Automl
+3. Automl
 - Get the same dataset
 - Config the automl setting(primary metrics, max iters, timeout)
 - Register the best model
 - Compare the accuracy of automl and hyperparameter
 
-3. Deploy the best model
+4. Deploy the best model
 - After getting the accuracy between automl and hyper parameter, choose the model with the better accuracy to deploy
 - From the best run, download the enrironment and the score.py script, ready to feed to Inference config.
 - Check the status of endpoint deployment is healthy
