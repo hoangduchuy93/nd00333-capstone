@@ -51,14 +51,16 @@ I am going to build the classification model to predict the survival change of p
 ### Results
 1. Dataset registered in workspace
 
-![image](https://github.com/user-attachments/assets/ca1b89fe-4e63-42b4-b088-1854e420b8d4)
+![image](https://github.com/user-attachments/assets/fd2752f9-4f2d-4aa0-add8-730f26f66975)
+
 
 
 2. Register the best model
 
-The best model is Voting Ensemble. The best accuracy is 83.7%
+The best model is Voting Ensemble. The best accuracy is 84%
 
-![image](https://github.com/user-attachments/assets/3bc281bb-6c52-48c0-97be-57a7b886b390)
+![image](https://github.com/user-attachments/assets/1a8c3559-4ae3-4267-911b-bcb34cc41122)
+
 
 
 
