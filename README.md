@@ -66,6 +66,10 @@ The best model is Voting Ensemble. The best accuracy is 83.7%
 
 ![image](https://github.com/user-attachments/assets/464e9c87-9530-4381-abac-a751dd2e6c74)
 
+The run is completed
+
+![image](https://github.com/user-attachments/assets/e9e76d37-6402-4652-8e22-be942c2343c8)
+
 
 4. Best model
 
