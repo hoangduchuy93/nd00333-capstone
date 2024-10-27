@@ -111,7 +111,8 @@ Best run
 
 2. REST Endpoint and Application insights enable
 
-![image](https://github.com/user-attachments/assets/f8039de5-a2da-4317-b2bb-378a32a74fba)
+![image](https://github.com/user-attachments/assets/f4008cff-e2d1-4d0e-af0a-c5855124c485)
+
 
 
 
