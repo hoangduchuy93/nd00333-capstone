@@ -108,7 +108,9 @@ The run is completed
 
 
 ## Hyperparameter Tuning
-I apply the logistics regression with 2 parameters:
+For the hyper parameter, I choose Logistic regression as the classifier model.
+The target of the dataset is survival change (0/1). The script for processing data and prepare the training testing is provided in scrip train.py.
+The parameter for the task:
 - C: the regularization strenght. Input the random floating-point from 0.05 to 0.1.
 - Max iteration: Select the random iteration of 16, 32, 64, 128 times.
 
@@ -132,8 +134,10 @@ Best run
 
 ![image](https://github.com/user-attachments/assets/6f0f3025-1c03-4226-aaf2-4ec05a0db3ea)
 
-
-
+***Improvement plan for hyperparameter***
+- Try different set of hyperparameter setting C and max_iter. For the C can try uniform range between (1 and 5) to see any improvement inperformace. The max_iter can be set to 100 or 200 to evaluate the performance can increase or not.
+- Try different model like tree based model and boosting model like XGBoost, CatBoost, LightGBM. In many cases the boosting model can provide the better accuracy
+- Try to use Early stopping to get the best model accuracy if the accuracy is started to decrease.
 
 ## Model Deployment
 1. Choose the best model to deploy
@@ -146,7 +150,8 @@ The hyperparam accuracy is 73%
 ![image](https://github.com/user-attachments/assets/bce6d9db-8c3c-4da6-b433-8373e0addc9c)
 
 
-==> We can choose the best model from automl to deploy to get the best performance.
+==> We can choose the best model from automl to deploy to get the best performance. The automl accuracy is about 10% higher than hyperparameter tuning. So I will deploy to webservice the automl and also enable the applicatin insights.
+We need to pass the environment and the score scrip to Inference config. Then config the Azure Container Instance ACI with cpu_cores = 1 and memory_gb = 1. 
 
 2. The deployement is sucessfully with status healthy
 
