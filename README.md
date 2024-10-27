@@ -120,8 +120,10 @@ I randomly send 2 Passenger information to endpoint. The data sending to endpoin
 
 
 The prediction and expected result are:
+Get 2 passenger information and post request to endpoint
 
-![image](https://github.com/user-attachments/assets/da668d42-a4d3-4c45-8206-f772d775c673)
+![image](https://github.com/user-attachments/assets/1e55564b-ec5e-43f6-ad6b-6f29d4ba034d)
+
 
 
 ## Screen Recording
