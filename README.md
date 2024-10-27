@@ -92,7 +92,7 @@ Some models accuracy of automl
 
 3. RunDetails
 
-<img width="519" alt="image" src="https://github.com/user-attachments/assets/af39543c-966d-485a-87d3-ccaf03b4e906">
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/76dd948b-cb49-46cf-8563-c51d649f7d23">
 
 
 Check the best run
