@@ -107,7 +107,6 @@ The run is completed
 
 
 
-
 ## Hyperparameter Tuning
 I apply the logistics regression with 2 parameters:
 - C: the regularization strenght. Input the random floating-point from 0.05 to 0.1.
