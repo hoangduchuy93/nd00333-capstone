@@ -92,10 +92,8 @@ I apply the logistics regression with 2 parameters:
 ### Results
 The best run get the accuracy around 73% with the C value of 0.07 and the max inter of 64
 
-![image](https://github.com/user-attachments/assets/102871f0-ea30-4fa9-9f9c-d176db443c56)
+![image](https://github.com/user-attachments/assets/858b0df9-2914-4f8a-8934-53857f34fa36)
 
-
-![image](https://github.com/user-attachments/assets/90698d0d-ed19-4dca-b2e3-92ad0c48a1e8)
 
 
 
@@ -109,7 +107,8 @@ The run is finished
 
 Best run
 
-![image](https://github.com/user-attachments/assets/78648762-0072-4144-8678-83373f86d0fb)
+![image](https://github.com/user-attachments/assets/6f0f3025-1c03-4226-aaf2-4ec05a0db3ea)
+
 
 
 
